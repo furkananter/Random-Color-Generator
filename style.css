@@ -7,14 +7,18 @@ body{
     background: white;
     font-family: 'Rubik Moonrocks', cursive;
   }
-  div#g {display: flex;align-content: center;flex-direction: column;}
+  div#g {
+      display: flex;align-content: center;flex-direction: column;
+    }
   .cid{
-    background-color: black;
+    background-color: white;
     width:20%;
     display:flex;
     margin:auto;
     padding:1.5rem;
     justify-content: center;
+    border-radius: 5px;
+    
   }
   #paragraf{
     color: white;
@@ -22,8 +26,8 @@ body{
   }
   #button{
     background: transparent;
-    color:white;
+    color:black;
     padding:5px 10px;
-    box-shadow: 1px 1px 5px white;
+    
   }
   

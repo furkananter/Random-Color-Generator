@@ -15,5 +15,9 @@ function randomColor() {
 button.addEventListener('click', () => {
     const colorCode = randomColor();
     text.innerText = colorCode;
-    document.body.style.background = colorCode; 
+    document.body.style.background = colorCode;
+    text.style.color = colorCode;
+    button.style.color = colorCode;
+    button.style.border = `1px solid ${colorCode}`;
+     
 })
