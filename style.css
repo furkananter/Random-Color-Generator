@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+    font-family: 'Rubik Moonrocks', cursive;
+  }
+  div#g {display: flex;align-content: center;flex-direction: column;}
+  .cid{
+    background-color: black;
+    width:20%;
+    display:flex;
+    margin:auto;
+    padding:1.5rem;
+    justify-content: center;
+  }
+  #paragraf{
+    color: white;
+    font-size: 1.6rem;
+  }
+  #button{
+    background: transparent;
+    color:white;
+    padding:5px 10px;
+    box-shadow: 1px 1px 5px white;
+  }
+  
