@@ -5,7 +5,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: white;
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Rubik Moonrocks',sans-serif;
   }
   div#g {
       display: flex;align-content: center;flex-direction: column;
